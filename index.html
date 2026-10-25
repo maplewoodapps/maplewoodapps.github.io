@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maplewood Apps — Support</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Nunito+Sans:wght@400;600&display=swap">
+  <style>
+    :root {
+      --ink: #1C2B4A; --accent: #D33F49; --bg: #F7F8FA;
+      --surface: #FFFFFF; --muted: #5A6A84; --hairline: #E2E6ED;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --ink: #EDF0F7; --accent: #E8636B; --bg: #141B2E;
+        --surface: #1E2740; --muted: #8A9AB8; --hairline: #2A3550;
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--ink); font-family: 'Nunito Sans', system-ui, sans-serif; font-size: 17px; line-height: 1.7; padding: 48px 24px 80px; }
+    .wrap { max-width: 660px; margin: 0 auto; }
+    header { margin-bottom: 40px; padding-bottom: 32px; border-bottom: 2px solid var(--accent); }
+    .eyebrow { font-family: 'Nunito', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+    h1 { font-family: 'Nunito', sans-serif; font-size: clamp(26px, 5vw, 36px); font-weight: 800; line-height: 1.2; margin-bottom: 12px; }
+    h2 { font-family: 'Nunito', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 12px; }
+    section { margin-bottom: 36px; }
+    p { margin-bottom: 14px; max-width: 62ch; }
+    .card { background: var(--surface); border: 1px solid var(--hairline); border-radius: 12px; padding: 20px 24px; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--hairline); font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Maplewood Apps</p>
+    <h1>Support</h1>
+    <p>Help for Citizenship Exam Prep 2025.</p>
+  </header>
+
+  <section class="card">
+    <h2>Contact us</h2>
+    <p>Questions, a wrong answer you spotted, or an idea for the app? Email
+      <a href="mailto:maplewoodapps@gmail.com">maplewoodapps@gmail.com</a> and we will get back to you.</p>
+  </section>
+
+  <section>
+    <h2>Citizenship Exam Prep 2025</h2>
+    <p>Study all 128 official USCIS civics questions with flashcards, topics, and practice tests that
+      work like the real interview. Fully offline, no account needed.</p>
+    <p><a href="https://apps.apple.com/us/app/citizenship-exam-prep-2025/id6806909598">Get it on the App Store</a></p>
+  </section>
+
+  <section>
+    <h2>Privacy</h2>
+    <p>The app collects no personal data. Read the full <a href="privacy/">privacy policy</a>.</p>
+  </section>
+
+  <footer>
+    <p>Maplewood Apps is not affiliated with, endorsed by, or associated with U.S. Citizenship and Immigration
+      Services (USCIS) or any government agency.</p>
+  </footer>
+</div>
+</body>
+</html>

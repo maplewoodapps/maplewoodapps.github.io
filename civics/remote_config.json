@@ -1,0 +1,628 @@
+{
+  "version": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "note": "Officeholders and state answers checked 2026-11-10 against the senate.gov senators list (119th Congress, all 100 names including Alan Armstrong of Oklahoma and Darline Graham of South Carolina), the National Governors Association current governors page, and the USCIS Check for Test Updates page for President, Vice President, Speaker, and Chief Justice. Class II winners of the 2026 election are not sworn in until 2027-01-03. Representative and territorial delegate names are omitted because they depend on district. Publish this same file to civics/remote_config.json on maplewoodapps/maplewoodapps.github.io for phones to pick up changes without an app release.",
+  "answers": {
+    "president": {
+      "correct": [
+        "Donald J. Trump",
+        "Donald Trump",
+        "Trump"
+      ],
+      "distractors": [
+        "Joe Biden",
+        "Barack Obama",
+        "Kamala Harris",
+        "George W. Bush"
+      ]
+    },
+    "vicePresident": {
+      "correct": [
+        "JD Vance",
+        "Vance"
+      ],
+      "distractors": [
+        "Kamala Harris",
+        "Mike Pence",
+        "Tim Walz",
+        "Joe Biden"
+      ]
+    },
+    "speaker": {
+      "correct": [
+        "Mike Johnson",
+        "Johnson",
+        "James Michael Johnson"
+      ],
+      "distractors": [
+        "Nancy Pelosi",
+        "Kevin McCarthy",
+        "Hakeem Jeffries",
+        "Steve Scalise"
+      ]
+    },
+    "chiefJustice": {
+      "correct": [
+        "John Roberts",
+        "John G. Roberts, Jr.",
+        "Roberts"
+      ],
+      "distractors": [
+        "Clarence Thomas",
+        "Samuel Alito",
+        "Brett Kavanaugh",
+        "Neil Gorsuch"
+      ]
+    }
+  },
+  "places": {
+    "AL": {
+      "name": "Alabama",
+      "kind": "state",
+      "senators": [
+        "Tommy Tuberville",
+        "Katie Britt"
+      ],
+      "governor": "Kay Ivey",
+      "capital": "Montgomery"
+    },
+    "AK": {
+      "name": "Alaska",
+      "kind": "state",
+      "senators": [
+        "Lisa Murkowski",
+        "Dan Sullivan"
+      ],
+      "governor": "Mike Dunleavy",
+      "capital": "Juneau"
+    },
+    "AZ": {
+      "name": "Arizona",
+      "kind": "state",
+      "senators": [
+        "Mark Kelly",
+        "Ruben Gallego"
+      ],
+      "governor": "Katie Hobbs",
+      "capital": "Phoenix"
+    },
+    "AR": {
+      "name": "Arkansas",
+      "kind": "state",
+      "senators": [
+        "John Boozman",
+        "Tom Cotton"
+      ],
+      "governor": "Sarah Huckabee Sanders",
+      "capital": "Little Rock"
+    },
+    "CA": {
+      "name": "California",
+      "kind": "state",
+      "senators": [
+        "Alex Padilla",
+        "Adam Schiff"
+      ],
+      "governor": "Gavin Newsom",
+      "capital": "Sacramento"
+    },
+    "CO": {
+      "name": "Colorado",
+      "kind": "state",
+      "senators": [
+        "Michael Bennet",
+        "John Hickenlooper"
+      ],
+      "governor": "Jared Polis",
+      "capital": "Denver"
+    },
+    "CT": {
+      "name": "Connecticut",
+      "kind": "state",
+      "senators": [
+        "Richard Blumenthal",
+        "Chris Murphy"
+      ],
+      "governor": "Ned Lamont",
+      "capital": "Hartford"
+    },
+    "DE": {
+      "name": "Delaware",
+      "kind": "state",
+      "senators": [
+        "Chris Coons",
+        "Lisa Blunt Rochester"
+      ],
+      "governor": "Matt Meyer",
+      "capital": "Dover"
+    },
+    "FL": {
+      "name": "Florida",
+      "kind": "state",
+      "senators": [
+        "Rick Scott",
+        "Ashley Moody"
+      ],
+      "governor": "Ron DeSantis",
+      "capital": "Tallahassee"
+    },
+    "GA": {
+      "name": "Georgia",
+      "kind": "state",
+      "senators": [
+        "Jon Ossoff",
+        "Raphael Warnock"
+      ],
+      "governor": "Brian Kemp",
+      "capital": "Atlanta"
+    },
+    "HI": {
+      "name": "Hawaii",
+      "kind": "state",
+      "senators": [
+        "Brian Schatz",
+        "Mazie Hirono"
+      ],
+      "governor": "Josh Green",
+      "capital": "Honolulu"
+    },
+    "ID": {
+      "name": "Idaho",
+      "kind": "state",
+      "senators": [
+        "Mike Crapo",
+        "Jim Risch"
+      ],
+      "governor": "Brad Little",
+      "capital": "Boise"
+    },
+    "IL": {
+      "name": "Illinois",
+      "kind": "state",
+      "senators": [
+        "Dick Durbin",
+        "Tammy Duckworth"
+      ],
+      "governor": "JB Pritzker",
+      "capital": "Springfield"
+    },
+    "IN": {
+      "name": "Indiana",
+      "kind": "state",
+      "senators": [
+        "Todd Young",
+        "Jim Banks"
+      ],
+      "governor": "Mike Braun",
+      "capital": "Indianapolis"
+    },
+    "IA": {
+      "name": "Iowa",
+      "kind": "state",
+      "senators": [
+        "Chuck Grassley",
+        "Joni Ernst"
+      ],
+      "governor": "Kim Reynolds",
+      "capital": "Des Moines"
+    },
+    "KS": {
+      "name": "Kansas",
+      "kind": "state",
+      "senators": [
+        "Jerry Moran",
+        "Roger Marshall"
+      ],
+      "governor": "Laura Kelly",
+      "capital": "Topeka"
+    },
+    "KY": {
+      "name": "Kentucky",
+      "kind": "state",
+      "senators": [
+        "Mitch McConnell",
+        "Rand Paul"
+      ],
+      "governor": "Andy Beshear",
+      "capital": "Frankfort"
+    },
+    "LA": {
+      "name": "Louisiana",
+      "kind": "state",
+      "senators": [
+        "Bill Cassidy",
+        "John Kennedy"
+      ],
+      "governor": "Jeff Landry",
+      "capital": "Baton Rouge"
+    },
+    "ME": {
+      "name": "Maine",
+      "kind": "state",
+      "senators": [
+        "Susan Collins",
+        "Angus King"
+      ],
+      "governor": "Janet Mills",
+      "capital": "Augusta"
+    },
+    "MD": {
+      "name": "Maryland",
+      "kind": "state",
+      "senators": [
+        "Chris Van Hollen",
+        "Angela Alsobrooks"
+      ],
+      "governor": "Wes Moore",
+      "capital": "Annapolis"
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "kind": "state",
+      "senators": [
+        "Elizabeth Warren",
+        "Ed Markey"
+      ],
+      "governor": "Maura Healey",
+      "capital": "Boston"
+    },
+    "MI": {
+      "name": "Michigan",
+      "kind": "state",
+      "senators": [
+        "Gary Peters",
+        "Elissa Slotkin"
+      ],
+      "governor": "Gretchen Whitmer",
+      "capital": "Lansing"
+    },
+    "MN": {
+      "name": "Minnesota",
+      "kind": "state",
+      "senators": [
+        "Amy Klobuchar",
+        "Tina Smith"
+      ],
+      "governor": "Tim Walz",
+      "capital": "Saint Paul"
+    },
+    "MS": {
+      "name": "Mississippi",
+      "kind": "state",
+      "senators": [
+        "Roger Wicker",
+        "Cindy Hyde-Smith"
+      ],
+      "governor": "Tate Reeves",
+      "capital": "Jackson"
+    },
+    "MO": {
+      "name": "Missouri",
+      "kind": "state",
+      "senators": [
+        "Josh Hawley",
+        "Eric Schmitt"
+      ],
+      "governor": "Mike Kehoe",
+      "capital": "Jefferson City"
+    },
+    "MT": {
+      "name": "Montana",
+      "kind": "state",
+      "senators": [
+        "Steve Daines",
+        "Tim Sheehy"
+      ],
+      "governor": "Greg Gianforte",
+      "capital": "Helena"
+    },
+    "NE": {
+      "name": "Nebraska",
+      "kind": "state",
+      "senators": [
+        "Deb Fischer",
+        "Pete Ricketts"
+      ],
+      "governor": "Jim Pillen",
+      "capital": "Lincoln"
+    },
+    "NV": {
+      "name": "Nevada",
+      "kind": "state",
+      "senators": [
+        "Catherine Cortez Masto",
+        "Jacky Rosen"
+      ],
+      "governor": "Joe Lombardo",
+      "capital": "Carson City"
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "kind": "state",
+      "senators": [
+        "Jeanne Shaheen",
+        "Maggie Hassan"
+      ],
+      "governor": "Kelly Ayotte",
+      "capital": "Concord"
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "kind": "state",
+      "senators": [
+        "Cory Booker",
+        "Andy Kim"
+      ],
+      "governor": "Mikie Sherrill",
+      "capital": "Trenton"
+    },
+    "NM": {
+      "name": "New Mexico",
+      "kind": "state",
+      "senators": [
+        "Martin Heinrich",
+        "Ben Ray Luján",
+        "Ben Ray Lujan"
+      ],
+      "governor": "Michelle Lujan Grisham",
+      "capital": "Santa Fe"
+    },
+    "NY": {
+      "name": "New York",
+      "kind": "state",
+      "senators": [
+        "Chuck Schumer",
+        "Kirsten Gillibrand"
+      ],
+      "governor": "Kathy Hochul",
+      "capital": "Albany"
+    },
+    "NC": {
+      "name": "North Carolina",
+      "kind": "state",
+      "senators": [
+        "Thom Tillis",
+        "Ted Budd"
+      ],
+      "governor": "Josh Stein",
+      "capital": "Raleigh"
+    },
+    "ND": {
+      "name": "North Dakota",
+      "kind": "state",
+      "senators": [
+        "John Hoeven",
+        "Kevin Cramer"
+      ],
+      "governor": "Kelly Armstrong",
+      "capital": "Bismarck"
+    },
+    "OH": {
+      "name": "Ohio",
+      "kind": "state",
+      "senators": [
+        "Bernie Moreno",
+        "Jon Husted"
+      ],
+      "governor": "Mike DeWine",
+      "capital": "Columbus"
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "kind": "state",
+      "senators": [
+        "James Lankford",
+        "Alan Armstrong"
+      ],
+      "governor": "Kevin Stitt",
+      "capital": "Oklahoma City"
+    },
+    "OR": {
+      "name": "Oregon",
+      "kind": "state",
+      "senators": [
+        "Ron Wyden",
+        "Jeff Merkley"
+      ],
+      "governor": "Tina Kotek",
+      "capital": "Salem"
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "kind": "state",
+      "senators": [
+        "John Fetterman",
+        "Dave McCormick"
+      ],
+      "governor": "Josh Shapiro",
+      "capital": "Harrisburg"
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "kind": "state",
+      "senators": [
+        "Jack Reed",
+        "Sheldon Whitehouse"
+      ],
+      "governor": "Dan McKee",
+      "capital": "Providence"
+    },
+    "SC": {
+      "name": "South Carolina",
+      "kind": "state",
+      "senators": [
+        "Tim Scott",
+        "Darline Graham"
+      ],
+      "governor": "Henry McMaster",
+      "capital": "Columbia"
+    },
+    "SD": {
+      "name": "South Dakota",
+      "kind": "state",
+      "senators": [
+        "John Thune",
+        "Mike Rounds"
+      ],
+      "governor": "Larry Rhoden",
+      "capital": "Pierre"
+    },
+    "TN": {
+      "name": "Tennessee",
+      "kind": "state",
+      "senators": [
+        "Marsha Blackburn",
+        "Bill Hagerty"
+      ],
+      "governor": "Bill Lee",
+      "capital": "Nashville"
+    },
+    "TX": {
+      "name": "Texas",
+      "kind": "state",
+      "senators": [
+        "John Cornyn",
+        "Ted Cruz"
+      ],
+      "governor": "Greg Abbott",
+      "capital": "Austin"
+    },
+    "UT": {
+      "name": "Utah",
+      "kind": "state",
+      "senators": [
+        "Mike Lee",
+        "John Curtis"
+      ],
+      "governor": "Spencer Cox",
+      "capital": "Salt Lake City"
+    },
+    "VT": {
+      "name": "Vermont",
+      "kind": "state",
+      "senators": [
+        "Bernie Sanders",
+        "Peter Welch"
+      ],
+      "governor": "Phil Scott",
+      "capital": "Montpelier"
+    },
+    "VA": {
+      "name": "Virginia",
+      "kind": "state",
+      "senators": [
+        "Mark Warner",
+        "Tim Kaine"
+      ],
+      "governor": "Abigail Spanberger",
+      "capital": "Richmond"
+    },
+    "WA": {
+      "name": "Washington",
+      "kind": "state",
+      "senators": [
+        "Patty Murray",
+        "Maria Cantwell"
+      ],
+      "governor": "Bob Ferguson",
+      "capital": "Olympia"
+    },
+    "WV": {
+      "name": "West Virginia",
+      "kind": "state",
+      "senators": [
+        "Shelley Moore Capito",
+        "Jim Justice"
+      ],
+      "governor": "Patrick Morrisey",
+      "capital": "Charleston"
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "kind": "state",
+      "senators": [
+        "Ron Johnson",
+        "Tammy Baldwin"
+      ],
+      "governor": "Tony Evers",
+      "capital": "Madison"
+    },
+    "WY": {
+      "name": "Wyoming",
+      "kind": "state",
+      "senators": [
+        "John Barrasso",
+        "Cynthia Lummis"
+      ],
+      "governor": "Mark Gordon",
+      "capital": "Cheyenne"
+    },
+    "DC": {
+      "name": "District of Columbia",
+      "kind": "district",
+      "senators": [],
+      "senatorNote": "D.C. has no U.S. senators.",
+      "governorNote": "D.C. does not have a governor.",
+      "capitalNote": "D.C. is not a state and does not have a capital."
+    },
+    "AS": {
+      "name": "American Samoa",
+      "kind": "territory",
+      "senators": [],
+      "senatorNote": "American Samoa has no U.S. senators.",
+      "governor": [
+        "Pula Nikolao Pula",
+        "Pula'ali'i Nikolao Pula"
+      ],
+      "capital": "Pago Pago"
+    },
+    "GU": {
+      "name": "Guam",
+      "kind": "territory",
+      "senators": [],
+      "senatorNote": "Guam has no U.S. senators.",
+      "governor": [
+        "Lou Leon Guerrero"
+      ],
+      "capital": [
+        "Hagåtña",
+        "Hagatna"
+      ]
+    },
+    "MP": {
+      "name": "Northern Mariana Islands",
+      "kind": "territory",
+      "senators": [],
+      "senatorNote": "The Northern Mariana Islands have no U.S. senators.",
+      "governor": [
+        "David M. Apatang",
+        "David Apatang"
+      ],
+      "capital": "Saipan"
+    },
+    "PR": {
+      "name": "Puerto Rico",
+      "kind": "territory",
+      "senators": [],
+      "senatorNote": "Puerto Rico has no U.S. senators.",
+      "governor": [
+        "Jenniffer González-Colón",
+        "Jenniffer Gonzalez-Colon"
+      ],
+      "capital": "San Juan"
+    },
+    "VI": {
+      "name": "U.S. Virgin Islands",
+      "kind": "territory",
+      "senators": [],
+      "senatorNote": "The U.S. Virgin Islands have no U.S. senators.",
+      "governor": [
+        "Albert Bryan Jr.",
+        "Albert Bryan"
+      ],
+      "capital": "Charlotte Amalie"
+    }
+  }
+}
+
+
